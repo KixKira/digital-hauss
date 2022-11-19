@@ -1,0 +1,58 @@
+.container {
+    height: 250px;
+    border-top: 3px solid #0762c8;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    padding: 50px;
+    align-items: center;
+}
+
+.linkTitle {
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+}
+
+.linkText {
+    margin-right: 10px;
+    color: #d0d0ce;
+    cursor: pointer;
+}
+
+.carL {
+    flex: 2;
+}
+
+.carS {
+    flex: 1;
+}
+
+.cardItem {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.icons {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .title, .linkTitle {
+        font-size: 30px;
+    }
+
+    .cardItem {
+        text-align: center;
+        font-size: 15px;
+    }
+}

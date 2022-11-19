@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../asset/Satoshi/Satoshi-Black.ttf');
+  src: url('../asset/Satoshi/Satoshi-BlackItalic.ttf');
+  src: url('../asset/Satoshi/Satoshi-Bold.ttf');
+  src: url('../asset/Satoshi/Satoshi-BoldItalic.ttf');
+  src: url('../asset/Satoshi/Satoshi-Italic.ttf');
+  src: url('../asset/Satoshi/Satoshi-Light.ttf');
+  src: url('../asset/Satoshi/Satoshi-LightItalic.ttf');
+  src: url('../asset/Satoshi/Satoshi-Medium.ttf');
+  src: url('../asset/Satoshi/Satoshi-MediumItalic.ttf');
+  src: url('../asset/Satoshi/Satoshi-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Satoshi, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.circle {
+  height: 100vh;
+  width: 100vh;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 999;
+  opacity: 0.1;
+}
+
+@media screen and (max-width: 480px) {
+    .circle {
+      display: none;
+    }
+}
