@@ -24,9 +24,6 @@ const Navbar = () => {
         <li className={styles.listItem}>
           <Link href="/products/photo">PHOTOGRAPHY</Link>
         </li>
-        <li className={styles.listItem}>
-          <Link href="/contact">CONTACT US</Link>
-        </li>
       </ul>
       <div className={styles.hamburger} onClick={() => setOpen(!open)}>
         <div className={styles.line} />
@@ -45,9 +42,6 @@ const Navbar = () => {
         </li>
         <li className={styles.menuItem}>
           <Link href="/products/photo">PHOTOGRAPHY</Link>
-        </li>
-        <li className={styles.menuItem}>
-          <Link href="/contact">CONTACT US</Link>
         </li>
       </ul>
     </div>

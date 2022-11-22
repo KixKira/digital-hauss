@@ -1,16 +1,16 @@
-import { data } from "../../data";
-import styles from "../../styles/Product.module.css";
+import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { customLoader } from "../../utils";
-import { Head } from "next/document";
+import { data } from "../../data";
+import styles from "../../styles/Product.module.css";
 
 const Product = ({ product }) => {
   return (
     <>
       <Head>
-        <title>{`Digital Hauss - ${product.title}`}</title>
-        <meta name="description" content={`Digital Hauss - ${product.title}`} />
+        <title>{`Digital Hauss - ${product?.title}`}</title>
+        <meta name="description" content={`Digital Hauss - ${product?.title}`} />
       </Head>
       <div className={styles.container}>
         <div className={styles.cardL}>
