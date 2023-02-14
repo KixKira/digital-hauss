@@ -1,0 +1,43 @@
+.header {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+}
+
+.nav__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 52px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    column-gap: 112px;
+    list-style: none;
+}
+
+.menu__link {
+    font-weight: 600;
+    font-size: var(--medium);
+    color: var(--navbar-color);
+    text-transform: uppercase;
+}
+
+.menu__link:hover {
+    color: var(--link-color);
+}
+
+.header__shrink {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
