@@ -24,12 +24,12 @@
 .menu__link {
     font-weight: 600;
     font-size: var(--medium);
-    color: var(--navbar-color);
+    color: var(--secondary-color);
     text-transform: uppercase;
 }
 
 .menu__link:hover {
-    color: var(--link-color);
+    color: var(--primary-color);
 }
 
 .header__shrink {

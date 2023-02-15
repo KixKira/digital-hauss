@@ -29,7 +29,7 @@
     font-size: var(--medium);
     font-weight: 500;
     line-height: 32px;
-    color: var(--navbar-color);
+    color: var(--secondary-color);
     width: 470px;
     margin-bottom: 28px;
 }
@@ -42,9 +42,9 @@
 .primary__btn {
     padding: 16px 48px;
     border: none;
-    outline: 1px solid var(--heading-color);
+    outline: 1px solid var(--primary-color);
     border-radius: 40px;
-    color: var(--heading-color);
+    color: var(--primary-color);
     font-size: var(--large);
     text-transform: uppercase;
     background: transparent;
