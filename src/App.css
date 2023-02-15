@@ -19,6 +19,8 @@
     /*Fonts*/
     --font-name: "Epilogue", sans-serif;
     --medium: 16px;
+    --large: 18px;
+    --bigger: 72px;
 }
 
 * {
@@ -45,4 +47,8 @@ h1, h2 {
     width: 1140px;
     padding: 0px 15px;
     margin: auto;
+}
+
+section {
+    padding: 60px 0;
 }
