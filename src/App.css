@@ -12,6 +12,8 @@
     --third-color: rgba(255, 255, 255, 1);
     --btn-primary-bg: rgba(255, 255, 255, 1);
     --body-bg: rgba(255, 255, 255, 1);
+    --shadow-light: rgba(255, 255, 255, 0.25);
+    --cards: rgba(30, 30, 30, 1);
 
     /*Fonts*/
     --font-name: "Epilogue", sans-serif;

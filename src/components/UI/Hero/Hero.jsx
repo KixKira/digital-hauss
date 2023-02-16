@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import heroImg from '../../../images/about.svg'
+import heroImg from '../../../images/hero.svg'
 
 const Hero = () => {
   return <section className='hero__section'>
