@@ -4,18 +4,18 @@ import './Services.css'
 const serviceData = [
     {
         number: '01.',
-        title: 'Design',
-        desc: 'Agency provides a full service range including technical skills, design.'
+        title: 'Diseño',
+        desc: 'La agencia ofrece una gama completa de servicios que incluye competencias técnicas, diseño.'
     },
     {
         number: '02.',
-        title: 'Development',
-        desc: 'Agency provides a full service range including technical skills, design.'
+        title: 'Desarrollo',
+        desc: 'La agencia ofrece una gama completa de servicios que incluye competencias técnicas, diseño.'
     },
     {
         number: '03.',
         title: 'Marketing',
-        desc: 'Agency provides a full service range including technical skills, design.'
+        desc: 'La agencia ofrece una gama completa de servicios que incluye competencias técnicas, diseño.'
     }
 ]
 
@@ -24,7 +24,7 @@ const Services = () => {
     <div className="container">
         <div className="services__wrapper">
             <div className="services__content">
-                <h2>What we do</h2>
+                <h2>A qué nos dedicamos</h2>
             </div>
         </div>
         <div className="service__item-wrapper">
@@ -43,7 +43,7 @@ const Services = () => {
             }
         </div>
         <div className="service__btn">
-            <button className="primary__btn">More</button>
+            <button className="primary__btn">Ver más</button>
         </div>
     </div>
   </section>

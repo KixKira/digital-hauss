@@ -1,0 +1,41 @@
+.projects__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.projects__content h2 {
+    font-size: var(--extrahugeplustitle);
+    font-weight: 800;
+    margin-bottom: 103px;
+}
+
+.projects__latest,
+.projects__latest_two {
+    display: flex;
+}
+
+.projects__one {
+    width: 767px;
+    margin-right: 20px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.projects__two,
+.projects__five {
+    width: 373px;
+    height: 300px;
+}
+
+.projects__three,
+.projects__four {
+    width: 373px;
+    margin-right: 20px;
+    height: 300px;
+}
+
+.projects__btn {
+    display: flex;
+    margin-top: 99px;
+    justify-content: center;
+}

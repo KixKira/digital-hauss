@@ -43,5 +43,5 @@
 .service__btn {
     display: flex;
     margin-top: 99px;
-    margin-left: 460px;
+    justify-content: center;
 }

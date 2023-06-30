@@ -31,16 +31,36 @@
 
 .header__shrink {
     width: 100%;
-    height: 80px;
+    height: 137px;
     line-height: 80px;
     position: sticky;
     top: 0;
     left: 0;
     z-index: 9999;
+    background: var(--third-color);
 }
 
 hr {
     color: var(--secondary-color);
     margin-bottom: 50px;
     opacity: 1;
+}
+
+.mobile__menu {
+    color: var(--primary-color);
+    font-size: var(--largeplus);
+    cursor: pointer;
+    display: none;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: var(--desktop)) {
+    .navigation {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 }
