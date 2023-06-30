@@ -11,11 +11,9 @@ function About() {
             </div>
             <div className="about__content">
                 <div>
-                    <p className="about__title">About</p>
-                    <h2>An Experience Design Agency</h2>
-                    <p className="about__description">
-                    Ability to put themselves in the merchant's shoes. It is meant to partner on the long run, and work as an extension of the merchant's team.
-                    </p>
+                    <p className="about__title">Acerca de</p>
+                    <h2>Una agencia de diseño de experiencias</h2>
+                    <p className="about__description">Capacidad de ponerse en el lugar del comerciante. Nuestro objetivo es asociarse a largo plazo y trabajar como una extensión del equipo del comerciante.</p>
                 </div>
             </div>
         </div>

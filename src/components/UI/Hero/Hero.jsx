@@ -8,11 +8,11 @@ const Hero = () => {
         <div className="hero__wrapper">
             <div className="hero__content">
                 <div>
-                    <p className="hero__title">Agency</p>
-                    <h2>We're help to build your dream project</h2>
-                    <p className="hero__description">Agency provides a full service range including technical skills, design, business understanding.</p>
+                    <p className="hero__title">Agencia</p>
+                    <h2>Le ayudamos a construir su proyecto soñado</h2>
+                    <p className="hero__description">La agencia ofrece una gama completa de servicios que incluye conocimientos técnicos, diseño y comprensión del negocio.</p>
                     <div className="hero__btns">
-                        <button className="primary__btn">Start a project</button>
+                        <button className="primary__btn">Iniciar un proyecto</button>
                     </div>
                 </div>
             </div>

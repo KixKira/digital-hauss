@@ -33,10 +33,10 @@ const Footer = () => {
             <div className="footer__logo">
                 <img src={footerImg} alt='digital-hauss-logo' />
                 <p className="contact">contact@digitalhauss.com</p>
-                <p className="number">269 591 9059</p>
+                <p className="number">+58 412 708 9438</p>
             </div>
             <div className="footer__quick-links">
-                <div className="quick__links-title">Start a project right here.</div>
+                <div className="quick__links-title">Inicie un proyecto aquí mismo.</div>
                 <ul className="quick__links">
                     {
                         quickLinks01.map((item, index) => (
